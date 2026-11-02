@@ -4,6 +4,8 @@ A mobile-first **tower defense roguelite**. You defend an icebreaker ship stuck 
 
 > Status: **early development**. The repository is being set up; the first playable prototype is the next milestone.
 
+**Who it is for:** mobile players who like tower defense and roguelite games.
+
 ## The game
 
 ### Premise
@@ -90,16 +92,14 @@ No accounts, no login, no online ranking, no analytics and no personal data coll
 - Git
 - Development runs on Linux, macOS, or Windows through **WSL2**
 
-Commands will be documented here once the project is scaffolded.
+## How to run
+
+The game cannot be run yet: the repository holds the design and the plan, and the scaffold is Phase 0 of the roadmap. The install, dev and test commands will be documented here as part of that phase.
 
 ## Roadmap
 
-- **Phase 0 — Setup:** Vite + TypeScript + Phaser, ESLint, Prettier, Vitest, CI, PWA shell with an "under construction" screen.
-- **Phase 1 — Playable prototype:** map with paths, enemies walking, one tower targeting the most advanced enemy, hull and coins in the HUD, waves from config.
-- **Phase 2 — MVP:** all MVP towers and enemies, resistances, tower upgrades, card picks between waves, boss, menu, game over, victory, local save.
-- **Phase 3 — Mobile:** Capacitor Android build, safe areas, touch tuning, performance (object pooling, texture atlas), icon and splash.
-- **Phase 4 — Depth (ongoing):** breakable ice and dynamic paths, meta-progression, new maps, towers, enemies and cards, random events and synergies, sound and music, endless mode, store release.
+The planned work, phase by phase, is in [ROADMAP.md](ROADMAP.md).
 
 ## License
 
-All rights reserved. This is a personal project; no license is granted to use, copy or distribute the code.
+The code is released under the [MIT License](LICENSE). Third-party assets keep their own licenses, listed in `ASSETS.md`.
